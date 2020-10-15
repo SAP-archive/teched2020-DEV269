@@ -2,44 +2,46 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2020 session called Session ID - Session Title. 
+This repository contains the material for the SAP TechEd 2020 session called DEV269 - Universal Kubernetes Management for Private or Hybrid Cloud.
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees to the capabilities offered by the open source solution [Gardener](https://kubernetes.io/blog/2018/05/17/gardener/). Gardener is used by SAP SE for centralized management of its thousands homogeneous Kubernetes clusters that spread across all famous public IaaS providers like AWS, Azure, GCP, AliCloud, etc. using their data centers all around the Globe.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are:
+
+- A UserID registered on www.sap.com
+- At least basic knowledge on the following topics:
+    - Cloud technologies and containerization
+    - Kubernetes
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+- [Getting Started and Registration](exercises/ex0_getting_started/registration.md)
+- [Exercise 1 - Getting to know Gardener (Beginners)](exercises/ex1_beginners/README.md)
+    - [Exercise 1.1 - Navigate into Gardener Dashboard](exercises/ex1_beginners/01_dashboard.md)
+    - [Exercise 1.2 - Create your first Gardener Project](exercises/ex1_beginners/02_create_project)
+    - [Exercise 1.3 - Project Clusters](exercises/ex1_beginners/03_project_clusters)
+    - [Exercise 1.4 - Cluster overview](exercises/ex1_beginners/04_cluster_overview)
+- [Exercise 2 - Managing Gardener shoot clusters (Advanced)](exercises/ex2_advanced_ui/README.md)
+    - [Exercise 2.1 - Create your first shoot cluster](exercises/ex2_advanced_ui/01_cluster_setup_ui.md)
+    - [Exercise 2.2 - Cluster lifecycle operations](exercises/ex2_advanced_ui/02_cluster_ops.md)
+    - [Exercise 2.3 - Using shoot clusters - deploy and add-on](exercises/ex2_advanced_ui/03_deploy_sample_addon.md)
+    - [Exercise 2.4 - Clean up](exercises/ex2_advanced_ui/04_cleanup.md)
+- [Exercise 3 - Using Gardener with kubectl (Advanced)](exercises/ex3_advanced_cli/README.md)
+    - [Exercise 3.1 - Shoot cluster setup using YAML](exercises/ex3_advanced_cli/01_cluster_setup_yaml.md)
+    - [Exercise 3.2 - Garden cluster](exercises/ex3_advanced_cli/02_garden_cluster.md)
+    - [Exercise 3.3 - Editing shoot cluster through YAML](exercises/ex3_advanced_cli/03_edit_shoot.md)
+    - [Exercise 3.4 - Gardener's controllers at work](exercises/ex3_advanced_cli/04_controllers_at_work.md)
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
 
-
-**OR** Link to the PDF document stored in your github repo for example...
-
-Start the exercises [here](exercises/myPDFDoc.pdf).
-    
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+If you have a registration on www.sap.com, start the exercises [here](https://gardener.ing.teched.gardener.cloud.sap/login) otherwise first [REGISTER](https://www.sap.com/registration/trial.908cb719-0e03-421c-a091-daca045f0acc.html).
 
 ## How to obtain support
 
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+This is an on-demand session and you can request support via the [Issues](../../issues) tab.
 
 ## License
-Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
