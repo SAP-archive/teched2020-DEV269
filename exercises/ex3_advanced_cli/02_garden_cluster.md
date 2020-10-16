@@ -17,7 +17,7 @@ Take a look at the [architecture overview](https://github.com/gardener/documenta
 ## Create a technical user
 Gardener offers the creation of technical users on project level. Implemented as service accounts they are created in your project's namespace where all your shoot resources are kept. These service accounts can be equipped with the same set of permissions as any other project member, so they may be used to automate tasks like cluster creation or deletion.
 
-For this exercise, start by creating a service account in your project. Therefor navigate to the *Members* section of your project.
+For this exercise, start by creating a service account in your project. Therefore navigate to the *Members* section of your project.
 <br>![Members](./images/03_02_01.png)
 
 At the bottom of the page, you will find a section called *Service Accounts*, which should be empty. Click the "+" button to start the creation dialog.
@@ -65,7 +65,7 @@ kubectl get seeds
 Feel free to take a detailed look at one of the individual seed specification or check the [example on github](https://github.com/gardener/gardener/blob/master/example/50-seed.yaml) as well as the [documentation](https://gardener.cloud/documentation/guides/install_gardener/setup-seed/).
 
 #### Cloudprofiles
-In case you wondered how the dashboard was able to construct the cloud provider specific sections of your shoot resource - cloudprofiles are the resources to check. For each enabled provider there is cloudprofile available which specifies things the usable machine types, available regions and zones as well as the supported Kubernetes versions for this provider.
+In case you wondered how the dashboard was able to construct the cloud provider specific sections of your shoot resource - cloudprofiles are the resources to check. For each enabled provider there is cloudprofile available which specifies items such as the usable machine types, available regions and zones as well as the supported Kubernetes versions for this provider.
 
 ```bash
 # get all available profiles

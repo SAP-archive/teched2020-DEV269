@@ -1,7 +1,7 @@
 # Exercise 2.2 - Cluster Lifecycle Operations
 
 ## Prerequisites
-You successfully completed exercise 2.1, where you created a cluster. This exercise will continue to work with this cluster, therefor it should be running.
+You successfully completed exercise 2.1, where you created a cluster. This exercise will continue to work with this cluster, therefore it should be running.
 
 Note, that you can always click the status icon to get more details about currently running reconcile operations.
 
@@ -36,7 +36,7 @@ To configure and adapt the default schedule, click the cogwheel next to hibernat
 <br>![Hibernation Schedule](./images/02_02_03.png)
 
 ## Kubeconfig rotation
-If you completed the previous steps, you have proven multiple times, that you own valid credentials to talk to the API server. Now, you might face a situation where you want to invalidate these, e.g. some uploaded their credentials to a public github repository.  This is where the kubeconfig rotation comes in handy. Give it a try and hit the "rotate" button.
+If you completed the previous steps, you have proven multiple times, that you own valid credentials to talk to the API server. Now, you might face a situation where you want to invalidate these, e.g. someone uploaded their credentials to a public github repository.  This is where the kubeconfig rotation comes in handy. Give it a try and hit the "rotate" button.
 
 <br>![Rotate Kubeconfig](./images/02_02_04.png)
 
@@ -59,7 +59,7 @@ kubectl version
 kubectl get nodes -o custom-columns=NAME:.metadata.name,VERSION:.status.nodeInfo.kubeletVersion
 ```
 
-Following the instructions of the previous exercise, you created this cluster based on an earlier version of Kubernetes and now it is time to change that. You can access the cluster update dialog either form the overview page by clicking on the version or via the details view. Now, select the latest of the available versions and enter the cluster's name to start the update.
+Following the instructions of the previous exercise, you created this cluster based on an earlier version of Kubernetes and now it is time to change that. You can access the cluster update dialog either from the overview page by clicking on the version or via the details view. Now, select the latest of the available versions and enter the cluster's name to start the update.
 
 <br>![Update Cluster Version](./images/02_02_05.png)
 
@@ -67,7 +67,7 @@ As usual you can observe the progress via the status information for your cluste
 
 ## Summary
 
-- You have learned about cluster hibernation and how to safe money by setting a hibernation schedule for non-productive clusters
+- You have learned about cluster hibernation and how to save money by setting up a hibernation schedule for non-productive clusters
 - You have rotated the kubeconfig credentials of your cluster
 - You have updated the Kubernetes version of your cluster
 

@@ -30,7 +30,7 @@ Look into the `.metadata` section of the YAML, you will find a `name:` element. 
 
 ### Choose GCP as provider
 
-Have a look at the `.spec` section of the YAML. Within the `.spec` section, you will specify all specifics of your shoot cluster. It therefore consists of several elements each describing certain aspects of the cluster.
+Have a look at the `.spec` section of the YAML. Within the `.spec` section, you will indicate all specifics of your shoot cluster. It therefore consists of several elements each describing certain aspects of the cluster.
 
 In the `.spec.provider` element, make sure the value of field `type:` is `gcp` to have the cluster deployed to Google Cloud Platform.
 

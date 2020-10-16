@@ -2,7 +2,7 @@
 
 Gardener project is one of the main Gardener resources. It is used to group Gardener managed Kubernetes clusters (shoot clusters) for common administative activities like, for example, members management, provider secrets configuration, etc.
 
-When using Gardener, Kuberentes clusters are always created as associated to a concrete Gardener project.
+When using Gardener, Kubernetes clusters are always created as associated to a concrete Gardener project.
 
 1. Navigate to the menu on the left and click the button to open the drop down with the Gardener projects:
 <br>![Gardener Dashboard](./images/21_drop_down_projects.png)

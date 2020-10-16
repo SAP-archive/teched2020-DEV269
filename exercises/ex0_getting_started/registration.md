@@ -1,6 +1,6 @@
 # Registration
 
-[Gardener](https://gardener.cloud/) is an open source project that offers a solution for centralized and simplified manamgenet of Kubernetes environments that spread across different IaaS providers and private clouds.
+[Gardener](https://gardener.cloud/) is an open source project that offers a solution for centralized and simplified management of Kubernetes environments that spread across different IaaS providers and private clouds.
 
 For the **SAP TechEd Workshop DEV269** that is part of the [virtual SAP TechEd 2020](https://events.sap.com/teched-global/en/home) we offer a trial Gardener environment that will be available to the TechEd participants to experience the capabilities of the Gardener open source solution using the exercise guidelines of the workshop.
 

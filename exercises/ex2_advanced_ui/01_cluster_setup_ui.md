@@ -19,7 +19,7 @@ To add a new cluster to your project, click the :heavy_plus_sign: button in the 
 ### Choose cloud provider and cluster version
 Firstly, choose in which cloud provider enviorment you want to create your cluster. You can use the default - AWS - or choose any provider for which a secret has been configured.
 
-**Note: This example and the screeshots will asume AWS has been chosen**
+**Note: This example and the screenshots will assume AWS has been chosen**
 
 The next decision is about the cluster's name, Kubernetes version and purpose. While you can use any cluster name accepted by the input field, please select the latest version of Kubernetes 1.18 from the list (i.e. 1.18.8). Upgrading to the latest major version is part of a subsequent exercise. As for the purpose of the cluster, you go can go with the default "evaluation".
 
@@ -46,11 +46,11 @@ Finally, you can configure a hibernation schedule. When hibernated, neither the 
 <br>![maintenance and hibernation](./images/02_01_04.png)
 
 ### Create the cluster
-The steps above conclude the relevant configuration options for now. Go ahead, click the "create" button in the right lowever corner to create the cluster.
+The steps above conclude the relevant configuration options for now. Go ahead, click the "create" button in the right lower corner to create the cluster.
 
 <br>![initiate creation](./images/02_01_05.png)
 
-It takes some time for the procedures to complete. You can check the progress by clicking the :heavy_plus_sign: in the "Logging and Monitoring" section of the cluster details screen. The same information is also accessible via the cluster overiew - there again click the :heavy_plus_sign: in the "Status" column.
+It takes some time for the procedures to complete. You can check the progress by clicking the :heavy_plus_sign: in the "Logging and Monitoring" section of the cluster details screen. The same information is also accessible via the cluster overview - there again click the :heavy_plus_sign: in the "Status" column.
 
 <br>![cluster creation progress](./images/02_01_06.png)
 

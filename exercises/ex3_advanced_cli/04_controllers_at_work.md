@@ -1,6 +1,6 @@
 # Exercise 3.4 - Gardener's controllers at work
 
-In this exercise you are going observe how gardener keeps your cluster up and running.
+In this exercise you are going to observe how gardener keeps your cluster up and running.
 
 ## Prerequisites
 
@@ -29,9 +29,9 @@ Now, just pick one of the two nodes and delete it:
 kubectl delete node shoot--demo--uznp8bghg6-minions-s-z1-7585dd9b4-84ck5
 ```
 
-## ... and observer how it reappears
+## ... and observe how it reappears
 
-**Note:** This can take some time as Gardener's worker node reconcilation only takes place after certian grace periods have passed. As you might not want to wait that long, please log on to the Gardener dashboard again and select your cluster's overview page.
+**Note:** This can take some time as Gardener's worker node reconcilation only takes place after certain grace periods have passed. As you might not want to wait that long, please log on to the Gardener dashboard again and select your cluster's overview page.
 
 Hit the _Reconcile_ button and confirm with _Trigger now_.
 
