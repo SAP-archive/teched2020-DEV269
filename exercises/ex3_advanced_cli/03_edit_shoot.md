@@ -72,6 +72,10 @@ Use `kubectl` to apply your changes.
 kubectl apply -f shoot.yaml
 ```
 
+**Note:** You might face an error message similar to this one: `Operation cannot be fulfilled on shoots.core.gardener.cloud: the object has been modified; please apply your changes to the latest version and try again`
+
+In this case please remove the `resourceVersion` field from the `metadata` section of you shoot.yaml and retry to apply the changes.
+
 ### Observe the reconciliation
 
 Change back to the overview page. Now that you introduced changes into the cluster configuration, a reconcilation process will take place which is displayed to you in the _Status_ field.
