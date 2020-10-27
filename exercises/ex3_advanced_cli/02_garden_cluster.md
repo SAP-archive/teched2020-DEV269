@@ -106,7 +106,7 @@ kubectl get secret uznp8bghg6.kubeconfig -o jsonpath='{.data.kubeconfig}' | base
 
 **Windows**
 ```shell
-kubectl get secret uznp8bghg6.kubeconfig -o go-template='{{.data.kubeconfig | base64decode}}{{"\n"}}'
+kubectl get secret uznp8bghg6.kubeconfig -o go-template='{{.data.kubeconfig | base64decode}}{{"\n"}}' > shoot-kubeconfig.yaml
 ```
 
 ## Summary
