@@ -1,4 +1,4 @@
-# Excercise 2.4 - Cleanup
+# Excercise 2.5 - Cleanup
 
 Gardener manages the full lifecycle a Kubernetes cluster, so deletion is the final step of exercise 2.
 

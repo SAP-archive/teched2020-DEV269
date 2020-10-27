@@ -1,4 +1,4 @@
-# Exercise 2.2 - Cluster Lifecycle Operations
+# Exercise 2.3 - Cluster Lifecycle Operations
 
 ## Prerequisites
 You successfully completed exercise 2.1, where you created a cluster. This exercise will continue to work with this cluster, therefore it should be running.
@@ -72,4 +72,4 @@ As usual you can observe the progress via the status information for your cluste
 - You have updated the Kubernetes version of your cluster
 
 ## Up next
-In the [next exercise](./03_deploy_sample_addon.md), you will deploy a demo application into your cluster
+In the [next exercise](./04_deploy_sample_addon.md), you will deploy a demo application into your cluster

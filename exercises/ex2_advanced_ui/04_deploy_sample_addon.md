@@ -1,4 +1,4 @@
-# Exercise 2.3 - Add-ons
+# Exercise 2.4 - Add-ons
 
 In this exercise you will deploy an add-on to your cluster using the Gardener dashboard. Add-ons are based on helm charts and allow standardized and central configuration of components.
 
@@ -91,4 +91,4 @@ As the final step of this exercise, take a look at the already [available extens
 - You have noticed that browser trusted certificates were automatically issued
 
 ## Up next
-In the [next exercise](./04_cleanup.md), you will delete your kubernetes cluster
+In the [next exercise](./05_cleanup.md), you will delete your kubernetes cluster
