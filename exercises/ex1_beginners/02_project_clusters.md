@@ -1,12 +1,14 @@
-# Exercise 1.3 Project Clusters
+# Exercise 1.2 Project Clusters
 
-As an operator for a Gardener managed Kubernetes landscape, you could be granted with viewer access for a Gardener project to monitor the status of the Kubernetes clusters.
+The Gardener project is one of the main Gardener resources. It is used to group Gardener managed Kubernetes clusters (shoot clusters) for common administative activities like, for example, members management, provider secrets configuration, etc.
+
+When using Gardener, Kubernetes clusters are always created as associated to a concrete Gardener project. As an operator for a Gardener managed Kubernetes landscape, you could be granted with viewer access for a Gardener project to monitor the status of the Kubernetes clusters.
 
 In this exercise you will experience what a Gardener project member can do when he/she is granted with viewer permissions for a project.
 
 For the purpose of this exercise, all workshop participants are granted with viewer permissions for a project with the name `DEV269`. This project has been created in advance together with all clusters that belong to it.
 
->NOTE: If you want to experience directly the creation and management of Gardener clusters, you can jump to the [next section](../ex2_advanced_ui/01_cluster_setup_ui.md) of this workshop.
+>NOTE: If you want to experience directly the creation and management of Gardener clusters, you can jump to the [next section](../ex2_advanced_ui/01_create_project.md) of this workshop.
 
 1. Navigate to the Gardener project with name `DEV269` using the project drop down list from the menu on the left:
 <br>![DEV269](./images/04_select_project.png)
@@ -32,6 +34,6 @@ For the purpose of this exercise, all workshop participants are granted with vie
 
 
 ## Up next
-In the [next exercise](../ex1_beginners/04_cluster_overview.md), you will learn how to find more details about Gardener shoot clusters.
+In the [next exercise](./03_cluster_overview.md), you will learn how to find more details about Gardener shoot clusters.
 
 

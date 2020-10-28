@@ -1,8 +1,6 @@
-# Exercise 1.2 Create your first Gardener Project
+# Exercise 2.1 Create your first Gardener Project
 
-Gardener project is one of the main Gardener resources. It is used to group Gardener managed Kubernetes clusters (shoot clusters) for common administative activities like, for example, members management, provider secrets configuration, etc.
-
-When using Gardener, Kubernetes clusters are always created as associated to a concrete Gardener project.
+The project you looked at in exercise 1 was read-only to you. Now, you will create your own Gardener project, which will serve as the context for the following exercises.
 
 1. Navigate to the menu on the left and click the button to open the drop down with the Gardener projects:
 <br>![Gardener Dashboard](./images/21_drop_down_projects.png)
@@ -17,6 +15,6 @@ When using Gardener, Kubernetes clusters are always created as associated to a c
 <br>![Gardener Dashboard](./images/24_project_created.png)
 
 ## Up next
-In the [next exercise](../ex1_beginners/03_project_clusters.md), you will learn what details are available in the Gardener dashboard for the project clusters.
+In the [next exercise](./02_cluster_setup_ui.md), you will create a cluster in the context of this project.
 
 

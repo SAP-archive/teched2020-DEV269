@@ -28,6 +28,6 @@ If you want to experience the admninistration and operation of the entire Garden
 
 
 ## Up next
-In the [next exercise](./02_create_project.md), you will learn how to create your first Gardener project.
+In the [next exercise](./02_project_clusters.md), you will learn how Gardener organizes and visualizes clusters.
 
 

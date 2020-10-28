@@ -1,4 +1,4 @@
-# Exercise 1.4 Cluster overview
+# Exercise 1.3 Cluster overview
 
 You can find more details about the clusters when using the overview of a single cluster.
 
@@ -17,6 +17,6 @@ You can find more details about the clusters when using the overview of a single
 - You also learned what details are available about the clusters for a project member with viewer permissions and how to find these details.
 
 ## Up next
-In the [next exercise](../ex2_advanced_ui/01_cluster_setup_ui.md), you will learn how to create and manage Gardener shoot clusters.
+In the [next exercise](../ex2_advanced_ui/01_create_project.md), you will learn how to create and manage Gardener shoot clusters in your own project.
 
 

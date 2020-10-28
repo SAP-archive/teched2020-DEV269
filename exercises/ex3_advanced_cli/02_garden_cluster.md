@@ -99,14 +99,14 @@ uznp8bghg6.ssh-keypair   Opaque                                2      25h
 
 Note the `uznp8bghg6.kubeconfig` secret (of course the name will be different for you as it includes the cluster's name) - this contains the kubeconfig of your shoot cluster. To extract the kubeconfig from it, use the following `-o jsonpath` argument to kubectl, pipe it through `base64 -d` and redirect it into a file:
 
+**Linux/MacOS**
 ```shell
 kubectl get secret uznp8bghg6.kubeconfig -o jsonpath='{.data.kubeconfig}' | base64 -d > shoot-kubeconfig.yaml
 ```
 
-In case you are not working in an evironment that has a Unix-like shell or the `base64` binary, you can try the following command to get and decode the secret:
-
+**Windows**
 ```shell
-kubectl get secret uznp8bghg6.kubeconfig -o go-template='{{.data.kubeconfig | base64decode}}{{"\n"}}'
+kubectl get secret uznp8bghg6.kubeconfig -o go-template='{{.data.kubeconfig | base64decode}}{{"\n"}}' > shoot-kubeconfig.yaml
 ```
 
 ## Summary

@@ -1,4 +1,4 @@
-# Exercise 2.1 - Create your first cluster using the Gardener Dashboard
+# Exercise 2.2 - Create your first cluster using the Gardener Dashboard
 
 ## Prerequisites
 You have successfully created a Gardener project that was automatically provisioned with trial secrets for various infrastructures. Additionally, you need a [kubectl binary](https://kubernetes.io/docs/tasks/tools/install-kubectl/) to access the cluster you are going to create.
@@ -101,4 +101,4 @@ Again, there are only components like `kube-proxy` or `calico-node` which are re
 - You have explored the cluster using `kubectl`
 
 ## Up next
-In the [next exercise](./02_cluster_ops.md), you will explore more Gardener capabilities with regards to cluster management.
+In the [next exercise](./03_cluster_ops.md), you will explore more Gardener capabilities with regards to cluster management.
