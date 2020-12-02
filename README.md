@@ -1,23 +1,21 @@
 # DEV269 - Universal Kubernetes Management for Private or Hybrid Cloud
 
-## Description
-
 This repository contains the material for the SAP TechEd 2020 session called DEV269 - Universal Kubernetes Management for Private or Hybrid Cloud.
 
-## Overview
+## 📌 Overview
 
-This session introduces attendees to the capabilities offered by the open source solution [Gardener](https://kubernetes.io/blog/2018/05/17/gardener/). Gardener is used by SAP SE for centralized management of its thousands homogeneous Kubernetes clusters that spread across all famous public IaaS providers like AWS, Azure, GCP, AliCloud, etc. using their data centers all around the Globe.
+This session introduces attendees to the capabilities offered by the open source solution [Gardener](https://gardener.cloud). Gardener is used by SAP for centralized management of thousands of homogeneous Kubernetes clusters. They run on all the public hyperscalers like AWS, Azure, GCP, AliCloud, etc. in all their data centers around the globe, and also in private or restricted environments based on OpenStack, VMware vSphere, or Equinix Metal/Packet.
 
-## Requirements
+## 🚦 Requirements
 
 The requirements to follow the exercises in this repository are:
 
 - A UserID registered on www.sap.com
 - At least basic knowledge on the following topics:
-    - Cloud technologies and containerization
-    - Kubernetes
+    - Cloud Technologies and Containerization
+    - [Kubernetes](https://kubernetes.io)
 
-## Exercises
+## 👨🏼‍💻 Exercises
 
 - [Getting Started and Registration](exercises/ex0_getting_started/registration.md)
 - [Exercise 1 - Getting to know Gardener (Beginners)](exercises/ex1_beginners/README.md)
@@ -37,11 +35,13 @@ The requirements to follow the exercises in this repository are:
     - [Exercise 3.4 - Gardener's controllers at work](exercises/ex3_advanced_cli/04_controllers_at_work.md)
 
 
-If you have a registration on www.sap.com, start the exercises [here](https://gardener.ing.teched.gardener.cloud.sap/login) otherwise first [REGISTER](https://www.sap.com/registration/trial.908cb719-0e03-421c-a091-daca045f0acc.html).
+:warning: If you have already registered your account on www.sap.com then start the exercises [here](https://gardener.ing.teched.gardener.cloud.sap/login). Otherwise, please [REGISTER](https://www.sap.com/registration/trial.908cb719-0e03-421c-a091-daca045f0acc.html) first.
 
-## How to obtain support
+## 📞 How To Obtain Support
 
 This is an on-demand session and you can request support via the [Issues](../../issues) tab.
 
-## License
+## 📚 [Learn More!](https://github.com/gardener/gardener#learn-more)
+
+## 📑 License
 Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This file is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
