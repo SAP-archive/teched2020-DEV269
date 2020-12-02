@@ -35,7 +35,7 @@ The requirements to follow the exercises in this repository are:
     - [Exercise 3.4 - Gardener's controllers at work](exercises/ex3_advanced_cli/04_controllers_at_work.md)
 
 
-:warning: If you have already registered your account on www.sap.com then start the exercises [here](https://gardener.ing.teched.gardener.cloud.sap/login). Otherwise, please [REGISTER](https://www.sap.com/registration/trial.908cb719-0e03-421c-a091-daca045f0acc.html) first.
+:warning: If you have already registered your account on www.sap.com then start the exercises [here](exercises/ex1_beginners/01_dashboard.md). Otherwise, please [REGISTER](https://www.sap.com/registration/trial.908cb719-0e03-421c-a091-daca045f0acc.html) first.
 
 ## 📞 How To Obtain Support
 
