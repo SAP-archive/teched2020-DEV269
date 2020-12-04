@@ -26,15 +26,15 @@ Once the cluster has been reconciled, you can move on to the next step.
 ## Explore the demo app
 The demo add-on features a nginx ingress controller, a default backend and a small demo app, which is exposed via a regular ingress resource.
 
-### Ingress Domain 
-Firstly, check the cluster's infrastructure details (reloading the page might be required). It should feature a domain, which Gardener configured for you. 
+### Ingress Domain
+Firstly, check the cluster's infrastructure details (reloading the page might be required). It should feature a domain, which Gardener configured for you.
 
 <br>![Ingress Domain](./images/02_03_03.png)
 
 The ingress domain points to a `LoadBalancer` service in `kube-system` namespace. Execute the following steps on a commandline to verify the setup:
 ```bash
 # Look up address associated with the domain
-nslookup <wildcard domain copied from dashboard>
+nslookup "<wildcard domain copied from dashboard>"
 
 # compare address with the ingress controller's LoadBalancer service
 kubectl -n kube-system get service addons-nginx-ingress-controller
@@ -43,7 +43,7 @@ kubectl -n kube-system get service addons-nginx-ingress-controller
 For more details about Gardener's DNS management capabilities, check the [documentation](https://gardener.cloud/documentation/concepts/networking/dns_controler_manager/).
 
 ### Demo app
-Next, let's take a look a the demo application consisting of `deployment`, `service` and `ingress` resources. All of these got deployed into the `default` namespace. 
+Next, let's take a look a the demo application consisting of `deployment`, `service` and `ingress` resources. All of these got deployed into the `default` namespace.
 The `deployment` is a nginx webserver with a "Hello Gardener" message, which is exposed to you via the combination of the `service` and the `ingress`.
 
 ```bash
@@ -77,12 +77,12 @@ kubectl get ingress -l app=nginx-ingress
 Take a look at the [documentation]( https://gardener.cloud/documentation/concepts/networking/cert-management/) for more details.
 
 ### Gardener Extensions
-Of course, creating certificates for an ingress is no rocket science. More interestingly it is offered as a central service to the other shoot clusters. 
+Of course, creating certificates for an ingress is no rocket science. More interestingly it is offered as a central service to the other shoot clusters.
 
-The basis is Gardener's extensions concept. It allows you to enable and manage "consumer" features such as the [cert-manager](https://github.com/gardener/cert-management) centrally in your Gardener installation. 
+The basis is Gardener's extensions concept. It allows you to enable and manage "consumer" features such as the [cert-manager](https://github.com/gardener/cert-management) centrally in your Gardener installation.
 However there is another dimension to the extensions concept as it is the foundation of any cluster created by Gardener. Whether it is usage of cloud providers such as GCP or the latest version of Gardenlinux as the operating system of a node, all configuration and functionality is brought in via extensions.
 
-As the final step of this exercise, take a look at the already [available extension repositories](https://github.com/gardener/gardener/blob/master/extensions/README.md#known-extension-implementations). 
+As the final step of this exercise, take a look at the already [available extension repositories](https://github.com/gardener/gardener/blob/master/extensions/README.md#known-extension-implementations).
 
 ## Summary
 

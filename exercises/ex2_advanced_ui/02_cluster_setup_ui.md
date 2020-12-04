@@ -21,9 +21,7 @@ Firstly, choose in which cloud provider enviorment you want to create your clust
 
 **Note: This example and the screenshots will assume AWS has been chosen**
 
-The next decision is about the cluster's name, Kubernetes version and purpose. While you can use any cluster name accepted by the input field, please select the latest version of Kubernetes 1.18 from the list (i.e. 1.18.8). Upgrading to the latest major version is part of a subsequent exercise. As for the purpose of the cluster, you go can go with the default "evaluation".
-
-**Note: Testing clusters do not get a monitoring or a logging stack as part of their control planes**
+The next decision is about the cluster's name, Kubernetes version and purpose. While you can use any cluster name accepted by the input field, please select the latest version of Kubernetes 1.18 from the list (i.e. 1.18.10). Upgrading to the latest major version is part of a subsequent exercise. As for the purpose of the cluster, you go can go with the default "evaluation".
 
 <br>![choose version](./images/02_01_02.png)
 

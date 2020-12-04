@@ -20,14 +20,14 @@ Gardener offers the creation of technical users on project level. Implemented as
 For this exercise, start by creating a service account in your project. Therefore navigate to the *Members* section of your project.
 <br>![Members](./images/03_02_01.png)
 
-At the bottom of the page, you will find a section called *Service Accounts*, which should be empty. Click the "+" button to start the creation dialog.
+At the bottom of the page, you will find a section called *Service Accounts*, which should only contain the `default` service account. Click the "+" button to start the creation dialog.
 <br>![Service Accounts](./images/03_02_02.png)
 
 Give your service account a suitable name, assign the *admin* role and create it.
 <br>![Create Service Account](./images/03_02_03.png)
 
 ## Download the kubeconfig
-Now that you have the service account, you need to obtain its credentials. In the previously empty section *Service Accounts* you should see the new user.
+Now that you have the service account, you need to obtain its credentials. In the section *Service Accounts* you should see the new user.
 <br>![Download Kubeconfig](./images/03_02_04.png)
 
 Go ahead, download the kubeconfig and store it in a suitable format and location so you can use it.
