@@ -1,5 +1,7 @@
 # DEV269 - Universal Kubernetes Management for Private or Hybrid Cloud
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2020-DEV269)](https://api.reuse.software/info/github.com/SAP-samples/teched2020-DEV269)
+
 This repository contains the material for the SAP TechEd 2020 session called DEV269 - Universal Kubernetes Management for Private or Hybrid Cloud.
 
 ## 📌 Overview
